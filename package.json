@@ -1,0 +1,19 @@
+{
+  "name": "superteam-vietnam-colosseum-agent",
+  "version": "1.0.0",
+  "description": "Autonomous evaluation agent for Superteam Vietnam Road to Colosseum hackathon track",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
